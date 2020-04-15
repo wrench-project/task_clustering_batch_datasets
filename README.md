@@ -11,7 +11,7 @@ The [workflows](https://github.com/wrench-project/task_clustering_batch_datasets
  The workflow files are named based on its workflow configuration using this scheme: APPLICATION_TASKS_DURATION.dax, where duration is in seconds. These workflow files correspond to the "workflow_specification" argument of the task clustering simulator.
  
  ## Workload Files
- The [workloads](https://github.com/wrench-project/task_clustering_batch_datasets/tree/master/workloads) are logs of real parallel workloads from various production systems. An expansive collection of these logs can be found [here](https://www.cse.huji.ac.il/labs/parallel/workload/logs.html) The logs contained in this repository were downloaded off that site and renamed to something shorter for simplicity. All logs in this repository are the most recent "cleaned" versions.
+ The [workloads](https://github.com/wrench-project/task_clustering_batch_datasets/tree/master/workloads) are logs of real parallel workloads from various production systems. An expansive collection of these logs can be found on the parallel workload [website](https://www.cse.huji.ac.il/labs/parallel/workload/logs.html). The logs contained in this repository were downloaded off the workload website and renamed to something shorter for simplicity. All logs in this repository are the "cleaned log -- RECOMMENDED" versions.
  Log File | System | Nodes
  --- | --- | ---
  kth_sp2.swf | KTH SP2 | 100
